@@ -1,0 +1,77 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1135149401" file="/Users/Hansen/Documents/SBRA PA2/RoboArmSim.prj" location="/Users/Hansen/Documents/SBRA PA2" name="RoboArmSim" target="target.mlapps" target-name="Package App">
+    <param.appname>RoboArmSim</param.appname>
+    <param.authnamewatermark>Hansen Qin</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>/private/var/folders/cx/kmcsg0bs3sb90mjb14l8b1q00000gn/T/tpf4279dfd_287f_4a8b_89db_957217b51d5b.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>ba01bff3-97df-45ca-a807-e7b02463364a</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/RoboArmSim.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/FK_space.m</file>
+      <file>${PROJECT_ROOT}/J_inverse_kinematics.m</file>
+      <file>${PROJECT_ROOT}/J_space.m</file>
+      <file>${PROJECT_ROOT}/J_transpose_kinematics.m</file>
+      <file>${PROJECT_ROOT}/drawRoboArm.m</file>
+      <file>${PROJECT_ROOT}/getRotationReps.m</file>
+      <file>${PROJECT_ROOT}/getT.m</file>
+      <file>${PROJECT_ROOT}/invAdjoint.m</file>
+      <file>${PROJECT_ROOT}/invT.m</file>
+      <file>${PROJECT_ROOT}/logmat.m</file>
+      <file>${PROJECT_ROOT}/redundancy_resolution2.m</file>
+      <file>${PROJECT_ROOT}/rot.m</file>
+      <file>${PROJECT_ROOT}/skewSym.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/Hansen/Documents" name="SBRA PA2" optional="false">/Users/Hansen/Documents/SBRA PA2</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2019b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.15.5</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
